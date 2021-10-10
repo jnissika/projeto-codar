@@ -210,6 +210,10 @@ img {
     color: white;
 }
 
+.footer a:hover {
+    color: red;
+}
+
 .titulo_rodape a {
     text-decoration: none;
     color: #D6000D;
@@ -298,7 +302,11 @@ img {
     .menu_links {
         display: flex;
         flex-flow: column nowrap;
-        margin-right: -30px;
+        margin-right: 0;
+    }
+    
+    .menu_items {
+        margin: 0;
     }
 
     #inicio {
