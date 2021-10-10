@@ -298,8 +298,7 @@ img {
     .menu_links {
         display: flex;
         flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
+        margin-right: -30px;
     }
 
     #inicio {
